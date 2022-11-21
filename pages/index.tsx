@@ -1,12 +1,15 @@
-import Head from 'next/head';
+import SEO from 'components/SEO';
 import styles from 'styles/Home.module.scss';
 
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Falaq</title>
-      </Head>
+      <SEO
+        tabName="Falaq"
+        title="Falaq"
+        description="Create value for your business."
+      />
+
       <div className={styles.container}>
         <main className={styles.main}>
           <h1 className={styles.title}>Home page</h1>

@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --primary-color: crimson;
+  --primary-main: hsla(223, 100%, 49%, 1);
+  --tertiary-main: hsla(243, 68%, 31%, 1);
+  --tertiary-dark: hsla(243, 74%, 21%, 1);
+  --light-text-secondary: hsla(240, 3%, 11%, 0.72);
+  --light-text-primary: hsla(240, 3%, 11%, 1);
+  --accent-light: hsla(194, 94%, 94%, 1);
+  --accent-dark: hsla(192, 100%, 50%, 1);
+  --dark-text-secondary: hsla(0, 0%, 100%, 0.72);
+  --grey-light: hsla(240, 11%, 91%, 1);
 }
 
 * {
@@ -12,4 +20,5 @@
 
 body {
   font-family: 'Outfit', sans-serif;
+  background-color: var(--grey-light);
 }

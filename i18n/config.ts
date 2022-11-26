@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 import translationEN from 'locales/en.json';
 import translationES from 'locales/es.json';
 
-export const resources = {
+const resources = {
   es: {
     translation: translationES,
   },
@@ -16,7 +16,7 @@ export const resources = {
 i18n.use(initReactI18next).init({
   fallbackLng: 'en',
   interpolation: {
-    escapeValue: false, // not needed for react as it escapes by default
+    escapeValue: false,
   },
   resources,
 });

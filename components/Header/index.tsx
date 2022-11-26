@@ -3,33 +3,7 @@ import { useRouter } from 'next/router';
 import React from 'react';
 import styles from './styles.module.scss';
 import { useTranslation } from 'react-i18next';
-
-const NAV_ITEMS = [
-  {
-    href: '/services',
-    name: 'navigation.services',
-  },
-  {
-    href: '/expertise',
-    name: 'navigation.expertise',
-  },
-  {
-    href: '/portfolio',
-    name: 'navigation.portfolio',
-  },
-  {
-    href: '/company',
-    name: 'navigation.company',
-  },
-  {
-    href: '/blog',
-    name: 'navigation.blog',
-  },
-  {
-    href: '/contact',
-    name: 'navigation.contact',
-  },
-];
+import { NAV_ITEMS } from 'constants/';
 
 const Header = () => {
   const router = useRouter();
